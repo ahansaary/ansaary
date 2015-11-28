@@ -368,9 +368,9 @@ treeJSON = d3.json("json/tree.json", function(error, treeData) {
             $img;
 
         if (doesFileExist('img/'+obj.id+'.jpg')) {
-            $img = $('<img src="../img/'+obj.id+'.jpg">');
+            $img = $('<img src="img/'+obj.id+'.jpg">');
         } else {
-            $img = $('<img src="../img/avatar.png">');
+            $img = $('<img src="img/avatar.png">');
         }
 
         $div.append($img);
